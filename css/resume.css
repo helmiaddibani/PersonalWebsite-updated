@@ -13,31 +13,27 @@ p {
 }
 
 
-a {
+#textUrl a {
 	outline: none;
   }
   
-  a:link {
+#textUrl  a:link {
 	color: #c16c23;
   }
   
-  a:visited {
+#textUrl  a:visited {
 	color: #c16c23;
   }
   
-  a:focus {
+#textUrl a:focus {
 	text-decoration: none;
 	background: #82867f72;
   }
   
-  a:hover {
+#textUrl  a:hover {
 	text-decoration: underline;
   }
-  
-  a:active {
-	background: #6900ff;
-	color: #cdfeaa;
-  }
+
 
 @media (min-width: 992px) {
   body {
