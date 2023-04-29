@@ -13,6 +13,32 @@ p {
 }
 
 
+a {
+	outline: none;
+  }
+  
+  a:link {
+	color: #c16c23;
+  }
+  
+  a:visited {
+	color: #c16c23;
+  }
+  
+  a:focus {
+	text-decoration: none;
+	background: #82867f72;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  a:active {
+	background: #6900ff;
+	color: #cdfeaa;
+  }
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
