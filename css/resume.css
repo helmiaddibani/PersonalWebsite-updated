@@ -592,17 +592,17 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 .bulletpoint:nth-child(5) {
 	transition-delay: 400ms;
 }
-.lbulletpointogo:nth-child(6) {
+.bulletpoint:nth-child(6) {
 	transition-delay: 500ms;
 }
 
-.lobulletpointgo:nth-child(7) {
+.bulletpoint:nth-child(7) {
 	transition-delay: 600ms;
 }
-.lobulletpointgo:nth-child(8) {
+.bulletpoint:nth-child(8) {
 	transition-delay: 800ms;
 }
-.lobulletpointgo:nth-child(9) {
+.bulletpoint:nth-child(9) {
 	transition-delay: 1000ms;
 }
 
@@ -631,4 +631,8 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .nav-item:nth-child(9) {
 	transition-delay: 1000ms;
+}
+
+.nav-item:nth-child(10) {
+	transition-delay: 1200ms;
 }
