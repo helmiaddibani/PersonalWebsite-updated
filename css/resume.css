@@ -514,3 +514,89 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 #project-tech-list li {
 	padding: 0px 10px; 
 }
+
+
+/* slow appearing animation feature */
+.hidden{
+
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	transition: all 1s;
+}
+
+.show{
+
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+
+}
+
+@media(prefers-reduced) {
+	.hidden{
+		transition: none;
+	}
+}
+
+.logo:nth-child(2) {
+	transition-delay: 100ms;
+}
+.logo:nth-child(3) {
+	transition-delay: 200ms;
+	
+}
+.logo:nth-child(4) {
+
+	transition-delay: 300ms;
+}
+.logo:nth-child(5) {
+
+	transition-delay: 400ms;
+}
+.logo:nth-child(6) {
+
+	transition-delay: 500ms;
+}
+
+.logo:nth-child(7) {
+
+	transition-delay: 600ms;
+}
+
+.logo:nth-child(8) {
+
+	transition-delay: 700ms;
+}
+
+.logo:nth-child(9) {
+
+	transition-delay: 800ms;
+}
+
+.logo:nth-child(10) {
+
+	transition-delay: 900ms;
+}
+
+
+.bulletpoint:nth-child(2) {
+	transition-delay: 100ms;
+}
+.bulletpoint:nth-child(3) {
+	transition-delay: 200ms;	
+}
+.lbulletpointogo:nth-child(4) {
+	transition-delay: 300ms;
+}
+.bulletpoint:nth-child(5) {
+	transition-delay: 400ms;
+}
+.lbulletpointogo:nth-child(6) {
+	transition-delay: 500ms;
+}
+
+.lobulletpointgo:nth-child(7) {
+	transition-delay: 600ms;
+}
+
